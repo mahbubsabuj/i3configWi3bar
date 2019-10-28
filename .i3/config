@@ -56,8 +56,10 @@ bindsym $mod+Ctrl+m exec pavucontrol
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec palemoon
+bindsym $mod+F1 exec google-chrome-stable
+bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
+bindsym $mod+F4 exec code
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
 bindsym $mod+F5 exec terminal -e 'mocp'
@@ -146,7 +148,6 @@ set $black       #282828
 set $darkblack   #1d2021
 set $transparent #00000000
 
-set $height 34
 set $ws1 "Ⅰ "
 set $ws2 "Ⅱ "
 set $ws3 "Ⅲ "

@@ -22,7 +22,7 @@ cpu_usage{
 }
 
 load {
-        format = "<span background='#50fa7b'>💾 </span><span background='#f59335'> %5min Load </span>"
+        format = "<span background='#50fa7b'> </span><span background='#f59335'> %1min Load </span>"
 }
 
 disk "/" {
